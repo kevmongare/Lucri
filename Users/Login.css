@@ -1,0 +1,37 @@
+.login{
+    max-width: 400px;
+    display: grid;
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input{
+    justify-content: center;
+    margin-top: 10px;
+    height: 28px;
+}
+button{
+    font-size: medium;
+
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    max-width: 60%;
+    border-radius: 5px;
+}
+.Loginbtn{
+    align-items: center;
+    background-color: rgb(3, 92, 143);
+    
+}
+.Register{
+    align-items: center;
+    background-color: rgb(29, 143, 3);
+
+}
+.login:hover{
+
+ box-shadow: 0 0 10px rgb(29, 143, 3);
+
+}

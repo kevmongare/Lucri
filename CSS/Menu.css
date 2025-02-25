@@ -1,0 +1,71 @@
+.Mainmenu{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(3, 92, 143);
+    display: flex;
+    justify-content: end;
+    max-height: 70px;
+}
+.Logo{
+    width: 160px;
+   
+    margin-right:60%;
+
+
+}
+ul{
+    max-width: 500px;
+    margin: 5px 30px 5px 5px ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.282);
+    display: flex;
+    
+}
+li{
+    margin-right: 5px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    align-items: center;
+    border-color: 10px solid aliceblue;
+    
+   
+}
+a{
+    border-top-color: aqua;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    border-bottom:1px solid #ffffff;
+}
+li :hover{
+    border-bottom: 1px solid #ffffff;
+    padding: 5px;
+    /*color: aqua;*/
+    border-radius: 5px;
+}
+li :active{
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    /*color: aqua;*/
+    border-radius: 5px;
+}
+.Signbtn{
+    max-width: 100px;
+    height: fit-content;
+    margin: 25px;
+    padding: 5px;
+    background-color:  #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+.Signbtn:hover{
+    background-color: orange;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 5px;
+
+}

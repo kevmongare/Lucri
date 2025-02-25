@@ -1,0 +1,33 @@
+
+.payment{
+    
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label{
+    justify-content: center;
+    display: block;
+    margin-top: 25px;
+}
+
+input{
+    
+    
+    margin-top: 10px;
+    display: block;
+    padding: 5px;
+    width: 50%;
+    
+}
+button{margin-top: 5px;
+    background-color: rgb(3, 92, 143);
+    width: 60%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
