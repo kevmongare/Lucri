@@ -54,9 +54,9 @@ li :active{
     border-radius: 5px;
 }
 .Signbtn{
-    max-width: 100px;
+   width: fit-content;
     height: fit-content;
-    margin: 25px;
+    margin: 15px;
     padding: 5px;
     background-color:  #ffffff;
     color: #000000;
